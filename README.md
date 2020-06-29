@@ -6,6 +6,29 @@
 
 
 
+### 스키마 생성
+
+```sql
+CREATE DATABASE `test_sch` /*!40100 DEFAULT CHARACTER SET utf8 */;
+```
+
+
+
+### db유저 아이디 비밀번호
+
+```sql
+-- 유저이름@아이피주소
+create user 'bitc'@'%' identified by 'bitc5600';
+
+-- ON DB이름.테이블명
+-- TO 유저이름@아이피주소
+GRANT ALL PRIVILEGES ON *.* TO 'bitc'@'%';
+ALTER DATABASE test_sch CHARACTER SET utf8 DEFAULT COLLATE utf8_general_ci;
+use test_sch;
+```
+
+
+
 ### class_table
 ```sql
 CREATE TABLE `class_table` (
