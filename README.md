@@ -1,17 +1,25 @@
 # practiceProgress
 
+&nbsp;
+&nbsp;
+## 프레젠테이션
+https://docs.google.com/presentation/d/1rVZnaeI76-AkdJjbl2RrEgBo3IDE1n5zZLjkih662og/edit?usp=sharing
 
 
+&nbsp;
+&nbsp;
+## 영상
+https://youtu.be/RfWTVgxJLhQ
+
+
+&nbsp;
+&nbsp;
 ## MySQL
-
-
-
 ### 스키마 생성
 
 ```sql
 CREATE DATABASE `test_sch` /*!40100 DEFAULT CHARACTER SET utf8 */;
 ```
-
 
 
 ### db유저 아이디 비밀번호
